@@ -13,7 +13,7 @@
 
 This is a course-based project (ML6140) that applies multiple machine learning paradigms to a single real-world marketing dataset. We predict whether a customer will respond to a marketing campaign (binary classification) and compare supervised learning, randomized optimization, and unsupervised feature engineering approaches.
 
-For a detailed project description, see [`PROJECT_ABSTRACT.md`](PROJECT_ABSTRACT.md).
+For a detailed project description, see [`PROJECT_ABSTRACT.md`](PROJECT_ABSTRACT.md) and https://www.overleaf.com/read/gsxvpgqwsfcp#2b0229.
 
 ## Project Structure
 
