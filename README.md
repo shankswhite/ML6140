@@ -43,6 +43,19 @@ ML6140/
 - Python 3.9+
 - pip or conda
 
+### Prerequisites for HighExplainability.ipynb
+
+-Python 3.14+
+-pip 
+-numpy 
+-pandas 
+-scikit-learn 
+-xgboost 
+-pygam 
+-interpret 
+-torch 
+-matplotlib
+
 ### Installation
 
 1. **Clone the repository:**
@@ -63,7 +76,7 @@ ML6140/
 3. **Install dependencies:**
 
    ```bash
-   pip install numpy pandas matplotlib scikit-learn torch torchvision
+   pip install numpy pandas matplotlib scikit-learn torch torchvision xgboost pygam interpret
    pip install mlrose-hiive joblib==1.2.0
    ```
 
@@ -73,7 +86,7 @@ ML6140/
 
 The dataset is already included at `dataset/marketing_campaign.csv`. It is sourced from the [Customer Personality Analysis](https://www.kaggle.com/datasets/imakash3011/customer-personality-analysis/data) dataset on Kaggle (2,240 records, 29 features).
 
-### Running the Notebook
+### Running the Notebooks
 
 Open and run the main notebook:
 
@@ -90,6 +103,12 @@ The notebook is divided into three self-contained sections:
 | **Part 3** | Unsupervised Learning | K-Means, EM/GMM, PCA, ICA, Random Projection, DR-enhanced NN |
 
 Each part includes its own data preprocessing, model training, evaluation, and visualization cells. You can run them independently (each re-loads and preprocesses the raw data).
+
+Open and run the Interpretability notebook:
+
+```bash
+jupyter notebook marketing_combined.ipynb
+```
 
 ## Key Dependencies
 
