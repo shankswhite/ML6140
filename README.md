@@ -125,4 +125,4 @@ jupyter notebook HighExplainability.ipynb
 
 ## Results
 
-All figures are saved to the `marketing_figures/` directory. Summary results are documented in [`PROJECT_ABSTRACT.md`](PROJECT_ABSTRACT.md).
+All figures from the marketing_combined.ipynb notebook are saved to the `marketing_figures/` directory. Figures from the HighExplainability.ipynb notebook are saved to the main directory. Summary results are documented in [`PROJECT_ABSTRACT.md`](PROJECT_ABSTRACT.md).
