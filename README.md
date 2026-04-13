@@ -107,7 +107,7 @@ Each part includes its own data preprocessing, model training, evaluation, and v
 Open and run the Interpretability notebook:
 
 ```bash
-jupyter notebook marketing_combined.ipynb
+jupyter notebook HighExplainability.ipynb
 ```
 
 ## Key Dependencies
@@ -119,6 +119,9 @@ jupyter notebook marketing_combined.ipynb
 | `mlrose-hiive` | Randomized optimization (RHC, SA, GA) |
 | `pandas` / `numpy` | Data manipulation |
 | `matplotlib` / `seaborn` | Visualization |
+| `pygam` | GAM implementation |
+| `interpret` | EBM implementation |
+| `xgboost` | XGBoost implementation |
 
 ## Results
 
