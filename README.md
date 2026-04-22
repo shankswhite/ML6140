@@ -31,7 +31,8 @@ ML6140/
 │   ├── nn_lr.png
 │   ├── nn_training_time.png
 │   └── svm_train_size_vs_error.png
-├── marketing_combined.ipynb         # Main notebook (all experiments)
+├── marketing_combined.ipynb         # Main notebook
+├── HighExplainability.ipynb         # Notebook with GAM, DT, EBM and XGBoost
 ├── PROJECT_ABSTRACT.md              # Project abstract / description
 └── README.md                        # This file
 ```
